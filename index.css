@@ -22,7 +22,10 @@ p{
     font-size: 16px;
     line-height: 25.6px;
 }
-
+li a:hover{
+    cursor: pointer;
+    color:#DD71C6;
+}
 .fullWHeader{
     display: flex;
     justify-content: space-evenly;
@@ -228,6 +231,7 @@ section{
     padding-inline: 14px;
     border: none;
     margin-top: 100px;
+    cursor: pointer;
 }
 .section3{
     background-color: #73C3F4;
@@ -420,6 +424,9 @@ section{
 .socialMobile{
     display: none;
 }
+.social img, .socialMobile img{
+    cursor: pointer;
+}
 .footerRight{
     display: flex;
     margin-left: 12%;
@@ -427,7 +434,10 @@ section{
 }
 .footerSection{
     margin-left: 12%;
-    
+}
+.footerSection p:hover{
+    color:#DD71C6;
+    cursor: pointer;
 }
 .footerSection h2{
     font-family: "Libre Baskerville", serif;
