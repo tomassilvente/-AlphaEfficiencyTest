@@ -868,13 +868,15 @@ section{
     .sectionParagraph{
         width: 90%;
     }
+    .section3Left div{
+        text-align: center;
+    }
     .section3IMG img{
         height: 350px;
         margin-top: 50px;
         margin-inline: auto;
     }
     .section4{
-        
         margin-block: 25px;
     }
     .section4 h2, .section4 p{ 
@@ -888,7 +890,7 @@ section{
         line-height: 28px;
     }
     .patientButton{
-        width: 60%;
+        width: 70%;
         margin-inline: auto;
     }
     .section5{
@@ -952,6 +954,9 @@ section{
    section, .section2, .section3, .section5{
     margin-inline: 0;
     padding-inline: 5%;
+   }
+   .rigth{
+    width: 95%;
    }
    .section6{
     margin: 0;
