@@ -541,13 +541,19 @@ section{
     }
     
     .section2{
+        overflow-x: hidden;
+        
         padding-inline: 5%;
         padding-block: 50px;
+    }
+    .cards{
+        margin-inline: 0;
     }
     .card{
         padding: 20px 10px 0px 10px;
         width: 20%;
         margin-inline: 12px;
+       
     }
     .card img{
         height: 30px;
@@ -712,10 +718,16 @@ section{
     }
     
     .section6{
-        padding-inline: 14%;
+        padding-inline: 0%;
     }
     .section6 h2{
-        margin-left: 5%;
+        margin-inline: 0;
+        padding: 0;
+    }
+    
+    .section6, .section4{
+        width: 100%;
+        overflow: hidden;
     }
     .footer{
         padding-inline:10%;
@@ -851,11 +863,12 @@ section{
         margin-inline: auto;
     }
     .section4{
+        
         margin-block: 25px;
     }
-    .section4 h2, .section4 p{
-        padding-left: 14%;
-        padding-right: 14%;
+    .section4 h2, .section4 p{ 
+        padding-right: 0%;
+        padding-left: 5%;
         padding-bottom: 25px;
     }
     .section4 p{
@@ -888,9 +901,14 @@ section{
         margin-bottom: 25px;
     }
     .section6{
-        padding-inline: 5%;
+        padding-inline: 0%;
         padding-block: 25px;
     }
+    .section6 h2{
+        margin-inline: 0;
+        padding: 0;
+    }
+    
     .section6 .appointmentButton{
         display: none;
     }
