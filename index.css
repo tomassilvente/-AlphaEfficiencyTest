@@ -39,7 +39,9 @@ li a:hover{
     cursor: pointer;
     color:#DD71C6;
 }
+
 /* Responsive Header */
+
 .fullWHeader{
     display: flex;
     justify-content: space-evenly;
@@ -88,7 +90,9 @@ li a:hover{
     color: black;
     font-size: 18px;
 }
+
 /* Section 1 */
+
 section{
     padding-block: 110px;
     display: flex;
@@ -272,7 +276,7 @@ section{
     position: absolute;
     left: 0;
 }
-.elipse17Mobile{
+.elipse17Mobile, .elipse28Mobile{
     display: none;
 }
 
@@ -288,6 +292,7 @@ section{
     font-weight: 400;
     font-size: 16px;
     line-height: 25.6px;
+    z-index: 2;
 }
 .section4P1{
     display: none;
@@ -299,10 +304,20 @@ section{
     display: block;
 }
 .section4IMG{
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    width: 100vw;
     margin-top: 50px;
     margin-bottom: -4px;
 }
+.section4IMG img{
+    z-index: 2;
+    width: 60%;
+    padding-inline: auto;
+}
 .section4IMG2{
+    z-index: 2;
     display: none;
 }
 
@@ -350,6 +365,7 @@ section{
 }
 .Section5EllipseRight{
     position: absolute;
+    z-index: -1;
     top: 3100px;
     right: 100px;
 }
@@ -490,7 +506,7 @@ section{
     }
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1400px) {
     html{
         max-width: 100%;
     }
