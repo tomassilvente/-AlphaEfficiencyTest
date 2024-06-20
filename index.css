@@ -145,9 +145,10 @@ section{
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: #ffffff9a;
+    background-color: rgba(255, 255, 255, 0.6); /* Fondo semi-transparente */
     padding: 41px 36px 41px 36px;
-    border-radius: 50px
+    border-radius: 50px;
+    backdrop-filter: blur(10px); /
 }
 .time{
     display: flex;
@@ -521,7 +522,7 @@ section{
         padding-block: 15px;
         margin-inline: auto;
         width: 70%;
-        box-shadow: 0px 0px 5px 0px; 
+        box-shadow: 0px 0px 10px 0px #dedede; 
     }
     .rigth p{
         font-size: 16px;
@@ -578,7 +579,7 @@ section{
     }
     .elipse32{
         top: 1100px;
-        left: 83%;
+        left: 78%;
     }
     .section3{
         display: block;
