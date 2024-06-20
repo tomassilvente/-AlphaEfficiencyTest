@@ -1,4 +1,6 @@
+
 document.addEventListener("DOMContentLoaded", function() {
+    // Hamburuger Menu
     const hamburgerMenu = document.getElementById('hamburger-menu');
     const mobileMenu = document.getElementById('mobile-menu');
 
@@ -9,6 +11,8 @@ document.addEventListener("DOMContentLoaded", function() {
             mobileMenu.style.display = 'block';
         }
     });
+
+    // Question's answer
 
     const questions = document.querySelectorAll('.questions li');
 
@@ -24,6 +28,8 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
     });
+
+    // Big countdown
 
     const countdownDate = new Date('2024-07-05T23:59:59').getTime();
 
