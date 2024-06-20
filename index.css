@@ -920,9 +920,16 @@ section{
 }
 
 @media screen and (max-width: 420px) {
-   section, .section2, .section3, .section5, .section6{
+   section, .section2, .section3, .section5{
     margin-inline: 0;
     padding-inline: 5%;
+   }
+   .section6{
+    margin: 0;
+    padding: 0;
+   }
+   .section6 ul{
+    margin-right: 15px;
    }
    .yellowBG{
     margin-left: 47%;
