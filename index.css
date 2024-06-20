@@ -507,6 +507,18 @@ section{
 }
 
 @media screen and (max-width: 1400px) {
+
+    /* GENERAL CHANGES */
+
+    /* GETTING OUT ALL FULL WIDTH ELEMENTS */
+    .Section5EllipseLeft, .Ellipse26, .Ellipse34, .elipse16, .Section5EllipseRight, .Section5EllipseMid, .Ellipse33, .Ellipse35, .Ellipse25, .elipse27, .book ,.section4IMG, .section4P2, .elipse17, .elipse16, .left p, .left button, .elipse27, .fullWHeader, .footerData, .social{
+        display: none;
+    }
+    .section6, .section4{
+        width: 100%;
+        overflow: hidden;
+    }
+
     html{
         max-width: 100%;
     }
@@ -514,9 +526,7 @@ section{
         background-color: white;
     }
    
-    .fullWHeader {
-        display: none;
-    }
+    /* SECTION 1 */
     .header{
         padding-inline: 10%;
         display: flex;
@@ -555,12 +565,6 @@ section{
         top: 50vh;
         z-index: -1;
     }
-    .elipse27{
-        display: none;
-    }
-    .left p, .left button{
-        display: none;
-    }
     .left{
         width: 70%;
         padding: 0;
@@ -587,7 +591,9 @@ section{
         margin-top: 50px;
         width: 63%;
     }
-    
+
+    /* SECTION 2 */
+
     .section2{
         overflow-x: hidden;
         
@@ -621,13 +627,13 @@ section{
     .section2 button{
         margin-top: 40px;
     }
-    .elipse16{
-        display: none;
-    }
     .elipse32{
         top: 1100px;
         left: 78%;
     }
+
+    /* SECTION 3 */
+
     .section3{
         display: block;
         padding-block: 50px;
@@ -640,9 +646,6 @@ section{
     }
     .sectionParagraph{
         width: 100%;
-    }
-    .elipse17{
-        display: none;
     }
     .elipse17Mobile{
         position: absolute;
@@ -667,6 +670,9 @@ section{
         margin-top: 50px;
         margin-inline: auto;
     }
+
+    /* SECTION 4 */
+
     .section4{
         text-align: left;
         padding: 0;
@@ -679,12 +685,6 @@ section{
     }
     .section4P1{
         display: block;
-    }
-    .section4P2{
-        display: none;
-    }
-    .section4IMG{
-        display: none;
     }
     .section4IMG2{
         align-items: center;
@@ -699,9 +699,7 @@ section{
     .section4IMG2{
         object-fit: cover;
     }
-    .book{
-        display: none;
-    }
+    
     .patientButton{
         margin: 0;
         display: block;
@@ -713,9 +711,10 @@ section{
         z-index: -1;
         width: 35%;
     }
-    .Section5EllipseLeft, .Ellipse26, .Ellipse34, .elipse16, .Section5EllipseRight, .Section5EllipseMid, .Ellipse33, .Ellipse35, .Ellipse25, .elipse27{
-        display: none;
-    }
+
+    
+    /* SECTION 5 */
+    
     .section5{
         text-align: left;
         padding-inline: 20% ;
@@ -761,9 +760,8 @@ section{
         top:5100px;
     }
     
-    .questions{
-        text-align: left;
-    }
+
+    /* SECTION 6 */
     
     .section6{
         padding-inline: 0%;
@@ -772,11 +770,12 @@ section{
         margin-inline: 0;
         padding: 0;
     }
-    
-    .section6, .section4{
-        width: 100%;
-        overflow: hidden;
+    .questions{
+        text-align: left;
     }
+
+    /* FOOTER */
+    
     .footer{
         padding-inline:10%;
         display: block;
@@ -786,9 +785,7 @@ section{
     .footerLeft{
         width: 55%;
     }
-    .footerData{
-        display: none;
-    }
+    
     .footerDataMobile{
         display: block;
         font-family: "Montserrat", sans-serif;
@@ -797,10 +794,6 @@ section{
     }
     .footer div img{
         padding:5px 10px  0 0;
-    }
-    .social{
-        display: none;
-        
     }
     .socialMobile{
         display: flex;
@@ -828,19 +821,26 @@ section{
         position: absolute;
         right: 0;
         top: 6950px;
-        z-index: 1;
+        z-index: 0;
     }
 }
 
 @media screen and (max-width: 650px) {
+
+    /* GETTING OUT ALL FULL WIDTH ELEMENTS */
+
+    .elipse32, .elipse31, .Ellipse36, .Ellipse38 , .Ellipse39 .section6 .appointmentButton{
+        display: none;
+    }
+
+    /* SECTION 1 */
+
     .left, .rigth {
         width: 100%;
         margin: 0;
         padding: 10px;
     }
-    .elipse32{
-        display: none;
-    }
+    
     .yellowBG{
         width: 48%;
     }
@@ -871,9 +871,9 @@ section{
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    .elipse31{
-        display: none;
-    }
+
+    /* SECTION 2 */
+
     .cards{
         margin-inline: 5%;
         display: grid;
@@ -896,6 +896,9 @@ section{
     .section2 button{
         width: 65%;
     }
+
+    /* SECTION 3 */
+
     .section3Left{
         width: 100%;
     }
@@ -913,6 +916,9 @@ section{
         margin-top: 50px;
         margin-inline: auto;
     }
+
+    /* SECTION 4 */
+
     .section4{
         margin-block: 25px;
     }
@@ -930,6 +936,9 @@ section{
         width: 70%;
         margin-inline: auto;
     }
+
+    /* SECTION 5 */
+
     .section5{
         padding-inline: 10%;
         padding-block: 50px;
@@ -950,6 +959,9 @@ section{
         display: block;
         margin-bottom: 25px;
     }
+
+    /* SECTION 6 */
+
     .section6{
         padding-inline: 0%;
         padding-block: 25px;
@@ -962,6 +974,9 @@ section{
     .section6 .appointmentButton{
         display: none;
     }
+
+    /* FOOTER */
+
     .footerLeft{
         width: 75%;
     }
@@ -975,15 +990,6 @@ section{
     .socialMobile div{
         width: 40%;
         justify-content: space-between;
-    }
-    .Ellipse36{
-        display: none;
-    }
-    .Ellipse38{
-        display: none;
-    }
-    .Ellipse39{
-        display: none;
     }
 }
 
